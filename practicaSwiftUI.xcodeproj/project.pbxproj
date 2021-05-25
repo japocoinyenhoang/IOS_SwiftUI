@@ -16,6 +16,7 @@
 		B201CDA9265C20CA008010D6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CDA8265C20CA008010D6 /* MainView.swift */; };
 		B201CDAC265C25C6008010D6 /* CeldaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CDAB265C25C6008010D6 /* CeldaView.swift */; };
 		B201CDAF265C25F6008010D6 /* Programador.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CDAE265C25F6008010D6 /* Programador.swift */; };
+		B29747DE265D4C8700CCA2DC /* ListadoViewswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29747DD265D4C8700CCA2DC /* ListadoViewswift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B201CDA8265C20CA008010D6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B201CDAB265C25C6008010D6 /* CeldaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaView.swift; sourceTree = "<group>"; };
 		B201CDAE265C25F6008010D6 /* Programador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programador.swift; sourceTree = "<group>"; };
+		B29747DD265D4C8700CCA2DC /* ListadoViewswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoViewswift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				B201CDA8265C20CA008010D6 /* MainView.swift */,
 				B201CDAB265C25C6008010D6 /* CeldaView.swift */,
 				B201CDAE265C25F6008010D6 /* Programador.swift */,
+				B29747DD265D4C8700CCA2DC /* ListadoViewswift.swift */,
 			);
 			path = practicaSwiftUI;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B201CDAF265C25F6008010D6 /* Programador.swift in Sources */,
+				B29747DE265D4C8700CCA2DC /* ListadoViewswift.swift in Sources */,
 				B201CDAC265C25C6008010D6 /* CeldaView.swift in Sources */,
 				B201CDA3265C0F0E008010D6 /* imagenesView.swift in Sources */,
 				B201CDA6265C19D9008010D6 /* MapView.swift in Sources */,
