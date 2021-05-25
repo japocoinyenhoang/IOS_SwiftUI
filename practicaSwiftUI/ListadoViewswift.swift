@@ -14,20 +14,35 @@ private let programadores = [
     Programador(id: 3, nombre: "Yen", lenguajes: "JavaScript kotlin", avatar: Image(systemName: "person.circle.fill"), favorito: false)]
 
 struct ListadoViewswift: View {
+    
+    //variable de estado para el Toggle
+    @State private var verFavoritos = false
+    
+    private var filtroProgramadores: [Programador] {
+        return programadores.filter {programador in return !verFavoritos || programador.favorito}
+    }
+    
     var body: some View {
         NavigationView{
-            List(programadores, id: \.id) { programador in
+            VStack{
+                Toggle(isOn: $verFavoritos){
+                    Text("Ver Favoritos")
+                }
+            
+            List(filtroProgramadores, id: \.id) { programador in
                 NavigationLink(
                     destination: DetallesView(programador: programador)){
                     CeldaView(programador: programador)
                 }
-                
             }
+            
             .navigationTitle("Empleados")
+            }
         }
-    
     }
+    
 }
+    
 
 struct ListadoViewswift_Previews: PreviewProvider {
     static var previews: some View {
