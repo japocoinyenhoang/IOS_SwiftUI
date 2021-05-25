@@ -17,8 +17,13 @@ struct ListadoViewswift: View {
     var body: some View {
         NavigationView{
             List(programadores, id: \.id) { programador in
-                CeldaView(programador: programador)
+                NavigationLink(
+                    destination: DetallesView(programador: programador)){
+                    CeldaView(programador: programador)
+                }
+                
             }
+            .navigationTitle("Empleados")
         }
     
     }
