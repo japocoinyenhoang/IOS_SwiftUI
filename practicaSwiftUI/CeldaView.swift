@@ -26,6 +26,14 @@ struct CeldaView: View {
                 Text(programador.lenguajes).font(.system(size: 22))
             }
             Spacer()
+            if programador.favorito {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.orange)
+            }else {
+                Image(systemName: "star")
+
+            }
+           
         }.previewLayout(.fixed(width: 400, height: 70))
     
     }
@@ -33,6 +41,6 @@ struct CeldaView: View {
 
 struct CeldaView_Previews: PreviewProvider {
     static var previews: some View {
-        CeldaView(programador: Programador(id: 1, nombre: "Jaime", lenguajes: "Swift  java c#" , avatar: Image(systemName: "person.circle.fill")))
+        CeldaView(programador: Programador(id: 1, nombre: "Jaime", lenguajes: "Swift  java c#" , avatar: Image(systemName: "person.circle.fill"), favorito: true))
     }
 }

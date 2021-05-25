@@ -14,4 +14,5 @@ struct Programador {
     var nombre: String
     var lenguajes: String
     var avatar: Image
+    var favorito: Bool
 }

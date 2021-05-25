@@ -1,30 +1,88 @@
 //
-//  imagenesView.swift
+//  ImagenesView.swift
 //  practicaSwiftUI
 //
-//  Created by Tardes on 24/5/21.
+//  Created by Tardes on 25/5/21.
 //
 
-import Foundation
 import SwiftUI
 
-struct imagenesView:View {
+struct ImagenesView: View {
     var body: some View {
-        
-        Image("monster").resizable()
-            .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            .clipShape(Circle())
-        .overlay(Circle()
-                    .stroke(Color.green, lineWidth: 7).padding(-20))
-        Spacer()
-        Image("monster").resizable()
-            .frame(width: 300, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            .clipShape(Circle())
-        .overlay(Circle()
-                    .stroke(Color.green, lineWidth: 7).padding(-20))
+        VStack {
+            HStack {
+                VStack {
+                    Image(systemName: "person.circle.fill").resizable()
+                        .frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/ )
+                        .background(Color.green, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color.green,lineWidth: 7)
+                                    .padding(-5))
+                    Text("Inicio")
+                
+                }.padding(10)
+                VStack {
+                    Image(systemName: "person.circle.fill").resizable()
+                        .frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/ )
+                        .background(Color.green, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color.green,lineWidth: 7)
+                                    .padding(-5))
+                    Text("Inicio")
+                
+                }.padding(10)
+                VStack {
+                    Image(systemName: "person.circle.fill").resizable()
+                        .frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/ )
+                        .background(Color.green, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color.green,lineWidth: 7)
+                                    .padding(-5))
+                    Text("Inicio")
+                
+                }.padding(10)
+            }
+            .padding(.bottom, 50.0)
+            HStack {
+                VStack {
+                    Image(systemName: "person.circle.fill").resizable()
+                        .frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/ )
+                        .background(Color.green, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color.green,lineWidth: 7)
+                                    .padding(-5))
+                    Text("Inicio")
+                
+                }.padding(10)
+                Group{
+                VStack {
+                    Image(systemName: "person.circle.fill").resizable()
+                        .frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/ )
+                        .background(Color.green, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color.green,lineWidth: 7)
+                                    .padding(-5))
+                    Text("Inicio")
+                
+                }.padding(10)
+                VStack {
+                    Image(systemName: "person.circle.fill").resizable()
+                        .frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/ )
+                        .background(Color.green, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                        .overlay(Circle().stroke(Color.green,lineWidth: 7)
+                                    .padding(-5))
+                    Text("Inicio")
+                
+                }.padding(10)
+                }.background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color.blue/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            }
+        }
     }
 }
 
-struct imagenesView_Previews: Previews: PreviewProvider {
-    static var previews :
+struct ImagenesView_Previews: PreviewProvider {
+    static var previews: some View {
+        ImagenesView()
+    }
 }

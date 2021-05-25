@@ -11,13 +11,13 @@
 		B201CD8B265BF310008010D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CD8A265BF310008010D6 /* ContentView.swift */; };
 		B201CD8D265BF311008010D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B201CD8C265BF311008010D6 /* Assets.xcassets */; };
 		B201CD90265BF311008010D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B201CD8F265BF311008010D6 /* Preview Assets.xcassets */; };
-		B201CDA3265C0F0E008010D6 /* imagenesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CDA2265C0F0E008010D6 /* imagenesView.swift */; };
 		B201CDA6265C19D9008010D6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CDA5265C19D9008010D6 /* MapView.swift */; };
 		B201CDA9265C20CA008010D6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CDA8265C20CA008010D6 /* MainView.swift */; };
 		B201CDAC265C25C6008010D6 /* CeldaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CDAB265C25C6008010D6 /* CeldaView.swift */; };
 		B201CDAF265C25F6008010D6 /* Programador.swift in Sources */ = {isa = PBXBuildFile; fileRef = B201CDAE265C25F6008010D6 /* Programador.swift */; };
 		B29747DE265D4C8700CCA2DC /* ListadoViewswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29747DD265D4C8700CCA2DC /* ListadoViewswift.swift */; };
 		B29747E1265D516D00CCA2DC /* DetallesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29747E0265D516D00CCA2DC /* DetallesView.swift */; };
+		B29747E8265D654E00CCA2DC /* ImagenesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29747E7265D654E00CCA2DC /* ImagenesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		B201CD8C265BF311008010D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B201CD8F265BF311008010D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B201CD91265BF311008010D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B201CDA2265C0F0E008010D6 /* imagenesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = imagenesView.swift; path = ../../../Downloads/practica12swiftUI/practica12swiftUI/imagenesView.swift; sourceTree = "<group>"; };
 		B201CDA5265C19D9008010D6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B201CDA8265C20CA008010D6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B201CDAB265C25C6008010D6 /* CeldaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaView.swift; sourceTree = "<group>"; };
 		B201CDAE265C25F6008010D6 /* Programador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programador.swift; sourceTree = "<group>"; };
 		B29747DD265D4C8700CCA2DC /* ListadoViewswift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListadoViewswift.swift; sourceTree = "<group>"; };
 		B29747E0265D516D00CCA2DC /* DetallesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesView.swift; sourceTree = "<group>"; };
+		B29747E7265D654E00CCA2DC /* ImagenesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,6 @@
 			children = (
 				B201CD88265BF310008010D6 /* practicaSwiftUIApp.swift */,
 				B201CD8A265BF310008010D6 /* ContentView.swift */,
-				B201CDA2265C0F0E008010D6 /* imagenesView.swift */,
 				B201CD8C265BF311008010D6 /* Assets.xcassets */,
 				B201CD91265BF311008010D6 /* Info.plist */,
 				B201CD8E265BF311008010D6 /* Preview Content */,
@@ -78,6 +77,7 @@
 				B201CDAE265C25F6008010D6 /* Programador.swift */,
 				B29747DD265D4C8700CCA2DC /* ListadoViewswift.swift */,
 				B29747E0265D516D00CCA2DC /* DetallesView.swift */,
+				B29747E7265D654E00CCA2DC /* ImagenesView.swift */,
 			);
 			path = practicaSwiftUI;
 			sourceTree = "<group>";
@@ -162,12 +162,12 @@
 				B201CDAF265C25F6008010D6 /* Programador.swift in Sources */,
 				B29747DE265D4C8700CCA2DC /* ListadoViewswift.swift in Sources */,
 				B201CDAC265C25C6008010D6 /* CeldaView.swift in Sources */,
-				B201CDA3265C0F0E008010D6 /* imagenesView.swift in Sources */,
 				B201CDA6265C19D9008010D6 /* MapView.swift in Sources */,
 				B201CD8B265BF310008010D6 /* ContentView.swift in Sources */,
 				B29747E1265D516D00CCA2DC /* DetallesView.swift in Sources */,
 				B201CDA9265C20CA008010D6 /* MainView.swift in Sources */,
 				B201CD89265BF310008010D6 /* practicaSwiftUIApp.swift in Sources */,
+				B29747E8265D654E00CCA2DC /* ImagenesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

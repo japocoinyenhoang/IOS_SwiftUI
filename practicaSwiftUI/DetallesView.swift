@@ -38,6 +38,6 @@ struct DetallesView: View {
 
 struct DetallesView_Previews: PreviewProvider {
     static var previews: some View {
-        DetallesView(programador: Programador(id: 0, nombre: "Jorge", lenguajes: "Java C++", avatar: Image(systemName: "person.circle.fill")))
+        DetallesView(programador: Programador(id: 0, nombre: "Jorge", lenguajes: "Java C++", avatar: Image(systemName: "person.circle.fill"), favorito: true))
     }
 }

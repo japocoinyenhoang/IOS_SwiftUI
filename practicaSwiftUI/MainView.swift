@@ -12,7 +12,7 @@ struct MainView: View {
         ScrollView {
             VStack {
                 MapView().frame(height: 450)
-                imagenesView().frame(height: 450).offset(y: -150)
+                ImagenesView().frame(height: 450).offset(y: -150)
                 ContentView().frame(height:450)
             }
         }
