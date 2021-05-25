@@ -27,7 +27,8 @@ struct ListadoViewswift: View {
             VStack{
                 Toggle(isOn: $verFavoritos){
                     Text("Ver Favoritos")
-                }
+                    
+                }.padding(10)
             
             List(filtroProgramadores, id: \.id) { programador in
                 NavigationLink(
